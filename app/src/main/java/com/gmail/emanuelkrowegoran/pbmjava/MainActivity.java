@@ -12,7 +12,9 @@ public class MainActivity extends AppCompatActivity {
     String[] maintitle ={
             "Muhammad. Bilal R","Danis Pangestu",
             "Mikael Dionito Harbigantara","Antonius Jonatan B.W",
-            "Danang Triyanto", "M.Nur Ashidiq","Zaqie Alfatah","Mitha Ulum","Adi primanto","Pamungkas"
+            "Danang Triyanto", "M.Nur Ashidiq",
+            "Zaqie Alfatah","Mitha Ulum",
+            "Adi primanto","Pamungkas"
             ,"Sahril"
     };
     String[] subtitle ={
@@ -44,39 +46,39 @@ public class MainActivity extends AppCompatActivity {
 // TODO Auto-generated method stub
                 if(position == 0) {
 //code specific to first list item
-                    Toast.makeText(getApplicationContext(),"Place Your First Option Code",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Muhammad. Bilal R",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 1) {
 //code specific to 2nd list item
-                    Toast.makeText(getApplicationContext(),"Place Your Second Option Code",Toast.
+                    Toast.makeText(getApplicationContext(),"Danis Pangestu",Toast.
                             LENGTH_SHORT).show();
                 }
                 else if(position == 2) {
-                    Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Mikael Dionito Harbigantara",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 3) {
-                    Toast.makeText(getApplicationContext(),"Place Your Forth Option Code",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Antonius Jonatan B.W",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 4) {
-                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Danang Triyanto",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 5) {
-                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"M.Nur Ashidiq",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 6) {
-                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Zaqie Alfatah",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 7) {
-                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Mitha Ulum",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 8) {
-                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Adi primanto",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 9) {
-                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Pamungkas",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 10) {
-                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"sahril",Toast.LENGTH_SHORT).show();
                 }
             }
         });
