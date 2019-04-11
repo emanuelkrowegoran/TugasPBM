@@ -10,19 +10,26 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     ListView list;
     String[] maintitle ={
-            "Japan","Cina",
-            "Korea Selatan","Brazil",
-            "Indonesia",
+            "Muhammad. Bilal R","Danis Pangestu",
+            "Mikael Dionito Harbigantara","Antonius Jonatan B.W",
+            "Danang Triyanto", "M.Nur Ashidiq","Zaqie Alfatah","Mitha Ulum","Adi primanto","Pamungkas"
+            ,"Sahril"
     };
     String[] subtitle ={
-            "Japan Kota Maju","Republik Rakyat Cina",
-            "Republik Korea Selatan","Brazil De santos",
-            "Republik Indonesia",
+            "seventee17@gmail.com","danispangestu@gmail.com",
+            "mikaeldionitoharbigantara@gmail.com","antonius1398@gmail.com",
+            "danang17@gmail.com","mayangsidik@gmail.com",
+            "zaqiebot@gmail.com","cahgaming77@gmail.com",
+            "adiprimanto@gmail.com","pamungkas@gmail.com",
+            "sahrilhasan@gmail.com"
     };
     Integer[] imgid={
-            R.drawable.japan,R.drawable.cina,
-            R.drawable.korsel,R.drawable.brazil,
-            R.drawable.indonesia,
+            R.drawable.bilal,R.drawable.danis,
+            R.drawable.mikael,R.drawable.anton,
+            R.drawable.danang,R.drawable.sidik,
+            R.drawable.zaqie,R.drawable.ulum,
+            R.drawable.masadi,R.drawable.maspam,
+            R.drawable.sahril,
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +58,24 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Place Your Forth Option Code",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 4) {
+                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                }
+                else if(position == 5) {
+                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                }
+                else if(position == 6) {
+                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                }
+                else if(position == 7) {
+                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                }
+                else if(position == 8) {
+                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                }
+                else if(position == 9) {
+                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                }
+                else if(position == 10) {
                     Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
                 }
             }
