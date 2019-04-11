@@ -25,14 +25,13 @@ public class Login extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password);
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnRgs = (Button) findViewById(R.id.btnRgs);
-
         btnRgs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Login.this, Registrasi.class);
                 Login.this.startActivity(intent);
 
-                btnLogin.setOnClickListener(new View.OnClickListener() {
+        btnLogin.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
 
