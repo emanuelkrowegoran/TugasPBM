@@ -25,6 +25,8 @@ public class Login extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password);
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnRgs = (Button) findViewById(R.id.btnRgs);
+
+
         btnRgs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,7 +36,6 @@ public class Login extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-
                         String usernameKey = username.getText().toString();
                         String passwordKey = password.getText().toString();
 
