@@ -8,11 +8,12 @@ import android.widget.Button;
 
 
 public class Registrasi extends AppCompatActivity {
+    //mendeklarasikan button yang di gunakan pada kelas Registrasii yaitu button dengan nama btnOK
     Button btnOK;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //
         setContentView(R.layout.activity_registrasi);
 
         btnOK = (Button) findViewById(R.id.btnOK);

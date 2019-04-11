@@ -74,6 +74,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
             android:background="@color/colorAccent"
+            android:onClick="ButtonOnClick"
             android:text="Registrasi"
             android:textColor="@android:color/white" />
 
