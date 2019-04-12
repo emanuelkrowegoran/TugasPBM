@@ -1,4 +1,5 @@
 package com.gmail.emanuelkrowegoran.pbmjava;
+//Mendeklarasikan package yang digunakan
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +10,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     ListView list;
+    //Mendekalrasikan varible listview yang digunakan
+
     String[] maintitle ={
             "Muhammad. Bilal R","Danis Pangestu",
             "Mikael Dionito Harbigantara","Antonius Jonatan B.W",
@@ -17,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
             "Adi primanto","Pamungkas"
             ,"Sahril"
     };
+    //Mendmbuat maintitle pada listview yang bertipe intteger dengan isi seperti diatas
+
+
     String[] subtitle ={
             "seventee17@gmail.com","danispangestu@gmail.com",
             "mikaeldionitoharbigantara@gmail.com","antonius1398@gmail.com",
@@ -25,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
             "adiprimanto@gmail.com","pamungkas@gmail.com",
             "sahrilhasan@gmail.com"
     };
+    //Lalu membuat subntitle yang berda dibawa maintitle pada listview dengan bertipe string dan isi email
+
     Integer[] imgid={
             R.drawable.bilal,R.drawable.danis,
             R.drawable.mikael,R.drawable.anton,
@@ -33,23 +41,28 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.masadi,R.drawable.maspam,
             R.drawable.sahril,
     };
-    @Override
+    //Memeasukkan gambar pada list view yang diinport data gambarnya dari drawble
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Menghubungkan kelas ini kekelas xmlnya
         listisiview adapter=new listisiview(this, maintitle, subtitle,imgid);
         list=(ListView)findViewById(R.id.list);
         list.setAdapter(adapter);
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
+                //Mendeklarasikan maintle,subtitle dan gambar yang digunakan
 // TODO Auto-generated method stub
+
+
+                //mendeklkarasikan ketika dipilih posityion 0 dan seterusnya  pada list view maka akan menampilkan keterangan
+                //spesifikasi kode yang dipilih,ketika diklik maka akan menampilkan keterangan sesui text ini
                 if(position == 0) {
-//code specific to first list item
                     Toast.makeText(getApplicationContext(),"Muhammad. Bilal R",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 1) {
-//code specific to 2nd list item
                     Toast.makeText(getApplicationContext(),"Danis Pangestu",Toast.
                             LENGTH_SHORT).show();
                 }
@@ -79,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(position == 10) {
                     Toast.makeText(getApplicationContext(),"sahril",Toast.LENGTH_SHORT).show();
+        //sampai pada position 10 karena data listview yang digunakan ada 11 jadi jika dihitung mulai 0 maka data 1 sampai 10
                 }
             }
         });

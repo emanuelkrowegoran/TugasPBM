@@ -7,6 +7,7 @@
     android:background="@color/colorPrimary"
     android:fitsSystemWindows="true"
     tools:context=".Login">
+//Mengatur leber dan tinggi layotu dan warna
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,6 +16,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:orientation="vertical">
+//Membuat linear layout vertikal
 
         <ImageView
             android:id="@+id/imageView"
@@ -22,8 +24,8 @@
             android:layout_height="120dp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="16dp"
-
             android:src="@drawable/foto" />
+        //Mneginportkan gambar pada drawble dengan nama gambar foto dengan mengatur ukuran 120 dp
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/textInputLayoutUsername"

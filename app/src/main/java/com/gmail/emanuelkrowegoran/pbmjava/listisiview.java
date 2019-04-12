@@ -13,7 +13,9 @@ public class listisiview  extends ArrayAdapter<String> {
     private final String[] maintitle;
     private final String[] subtitle;
     private final Integer[] imgid;
+    //Mendeklarasikan varible yang digunakan pada kelas listview yang bersi9fat privete kelas
     public listisiview (Activity context, String[] maintitle,String[] subtitle, Integer[] imgid)
+    //Mebngatur urutana varible dengan isinya yang akan diutampilkan pada listview
     {
         super(context, R.layout.activity_listisiview, maintitle);
 // TODO Auto-generated constructor stub
